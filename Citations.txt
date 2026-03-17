@@ -1,0 +1,36 @@
+To Google Translate
+
+What I promted:
+Translate the words-5000.txt file and some miscellaneous words into latin
+
+What I recived
+The Translated txt file
+
+Where It is used
+To provide the Latin translation of the words
+
+To Google:
+
+What I promted:
+java doc for a class
+
+What I recived:
+/**
+ * A brief description of the class, what it represents, 
+ * and how to use it. This section can span multiple lines 
+ * and use HTML tags like <p> for paragraphs or 
+ * <code>{@link SomeOtherClass}</code> for links.
+ * <p>
+ * More detailed description can follow.
+ * 
+ * @author The author's name
+ * @version The current version of the class
+ * @since The JDK version or when the class was added
+ * @see RelatedClass Another related class or method
+ */
+public class MyClass {
+    // ... class members ...
+}
+
+Where it is Used:
+To accurately determine how to do a java doc for this project
