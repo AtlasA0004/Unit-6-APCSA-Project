@@ -34,8 +34,8 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text and how the user interacts with your project.
+The programs goal is to take in a sentence of phrase from the user and translate it to latin. It does this by breaking apart the input by individual word, then iterating through the English words until in finds a match, then finds the translation in the Latin words. When the program is run, it will display a hello message and ask for a sentence or word to translate. Once an input is recived, the program will output the translation, and ask if the user whishes another one. If not, then it displays a thank you and a short description of how the program operates.
 
 ## NLP Techniques
 
-Write a description of what natural language technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods work and how they are necessary in the NLP technique.
+The Natural Language Technique that I implemented was Translator. This technique takes in words and then translates them into another langugage. The methods that are used for this technique are seperateWords(String phrase) and translate(ArrayList<String> toTranslate). The seperateWords method is used to seperate the user input into seperate words, which can then be translated. It does this by finding where the spaces are with .indexOf(), then seperating out each of the words using .substring(). While the translate method takes in the ArrayList of each word and returns a String of the translations. It operates by for every word to translate, for every word in the English text file, if they are the same then add the Latin translation of that word to the String. If there is not a translation present, then add [Word not found instead]. These methods are used to process and analize the text using NLP.
